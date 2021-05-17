@@ -1,0 +1,63 @@
+.cwatch-new .section-2 {
+    background-color: #ffffff;
+    text-align: center;
+	padding-bottom: 60px;
+    padding-top: 30px;
+}
+.cwatch-new .section-2 .bottom-section [class^="col-"] {
+    padding: 25px 15px;
+    text-align: center;
+}
+.cwatch-new .section-2 .bottom-section [class^="col-"] a {
+    text-decoration: none;
+}
+.cwatch-new .section-2 .bottom-section .hover-item {
+    border: 1px solid #e4e4e4;
+    border-radius: 5px;
+	background-color: #ffffff;
+    padding: 35px 25px;
+    transition: 0.3s linear;
+    min-height: 305px;
+}
+.cwatch-new .section-2 .bottom-section > [class^="col-"] span {
+    width: 68px;
+    height: 58px;
+    display: block;
+    margin: auto;
+}
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(1) span { background-position: -2px 0px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(2) span { background-position: -5px -773px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(3) span { background-position: -3px -217px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(4) span { background-position: -5px -904px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(5) span { background-position: -1px -419px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(6) span { background-position: -1px -531px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(7) span { background-position: -3px -648px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(8) span { background-position: -1px -103px !important; }
+.cwatch-new .section-2 .bottom-section > [class^="col-"]:nth-of-type(9) span { background-position: -1px -316px !important; }
+.cwatch-new .section-2 .bottom-section .hover-item h4 {
+    font-size: 19px;
+    margin: 15px 0;
+    color: #404040;
+}
+.cwatch-new .section-2 p {
+    font-size: 16px;
+    color: #454545;
+    line-height: 30px;
+    max-width: 430px;
+    margin: auto;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .cwatch-new .section-2 .bottom-section .hover-item {
+        min-height: 100%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .cwatch-new .section-2 .bottom-section .hover-item {
+        min-height: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .cwatch-new .section-2 .bottom-section [class^="col-"] {
+        padding: 7.5px 15px;
+    }
+}

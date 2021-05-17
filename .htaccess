@@ -1,0 +1,13 @@
+Options +MultiViews -Indexes
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^/?(.*)/+$ /$1 [R=302,L,QSA]
+
+# ok. It will still find the file but relative assets won't load
+# e.g. page: /landing/  -> assets/js/main.js/main
+# that's we have the rules above.
+RewriteCond %{REQUEST_FILENAME} !\.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.php -f 
+RewriteRule ^/?(.*?)/?$ $1.php
+

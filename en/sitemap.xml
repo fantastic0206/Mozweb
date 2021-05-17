@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- ANGODOMAINS SITEMAP -->
+
+<url>
+  <loc>https://www.mozweb.co.mz/en</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cliente.angodomains.co.ao/</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<!-- Alojamento -->
+<url>
+  <loc>https://www.mozweb.co.mz/hosting/managed-wordpress</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/hosting/shared-linux</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/hosting/shared-windows</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/hosting/reseller-linux</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/hosting/reseller-windows</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Alojamento -->
+
+<!-- Servidor -->
+<url>
+  <loc>https://www.mozweb.co.mz/server/vps-linux</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/server/vps-windows</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/server/dedicated</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Servidor -->
+
+<!-- Dominios -->
+<url>
+  <loc>https://www.mozweb.co.mz/domain/register</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/domain/transfer</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/domain/whois</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Dominios -->
+
+<!-- Servicos -->
+<url>
+  <loc>https://www.mozweb.co.mz/services/web-designer</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/services/ssl-certificate</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/services/email-security</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/services/cwatch-website-security</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/services/cwatch-website-backup</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Servicos -->
+
+<!-- Empresa -->
+<url>
+  <loc>https://www.mozweb.co.mz/company/contact</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/company/about-us</loc>
+  <lastmod>2020-04-28T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Empresa -->
+</urlset>

@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- MOZWEB SITEMAP -->
+
+<url>
+  <loc>https://www.mozweb.co.mz/</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://cliente.mozweb.co.mz/</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+
+<!-- Alojamento -->
+<url>
+  <loc>https://www.mozweb.co.mz/alojamento/wordpress-gerenciado</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/alojamento/partilhado-linux</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/alojamento/partilhado-linux-mini</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/alojamento/partilhado-windows</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/alojamento/revenda-linux</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/alojamento/revenda-windows</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Alojamento -->
+
+<!-- Servidor -->
+<url>
+  <loc>https://www.mozweb.co.mz/servidor/vps-linux</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servidor/vps-windows</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servidor/dedicado</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servidor/streaming-radio</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servidor/cloud</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Servidor -->
+
+<!-- Dominios -->
+<url>
+  <loc>https://www.mozweb.co.mz/dominio/registar</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/dominio/transferir</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/dominio/whois</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Dominios -->
+
+<!-- Servicos -->
+<url>
+  <loc>https://www.mozweb.co.mz/servicos/criacao-de-sites</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servicos/seguranca-de-email</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servicos/cwatch-seguranca-de-sites</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/servicos/cwatch-backup-de-sites</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Servicos -->
+
+<!-- Certificado Digital -->
+<url>
+  <loc>https://www.mozweb.co.mz/certificado-digital-ssl/</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/certificado-digital-ssl/sectigo</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/certificado-digital-ssl/geotrust</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/certificado-digital-ssl/symantec</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Certificado Digital -->
+
+<!-- Empresa -->
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/contacto</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/sobre-nos</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/data-center</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/horario-suporte</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/metodos-de-pagamento</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/politicas-de-backup</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/politicas-de-privacidade</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/termos-e-condicoes</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/empresa/afiliados</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<!-- Empresa -->
+
+
+<!-- Ferrametas -->
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/dig</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/meuip</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/nslookup</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/ping</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/testador-de-site</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/traceroute</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/ssl-checker</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/csr-decoder</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/cert-decoder</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/cert-key-matcher</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/ssl-converter</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/csr-generator</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/why-no-padlock</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/caa-record-generator</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.mozweb.co.mz/ferramentas/certificado-ssl/server-checker</loc>
+  <lastmod>2020-08-17T00:31:58+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<!-- Ferrametas -->
+
+</urlset>

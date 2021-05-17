@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 60 60"
+   version="1.1"
+   id="svg2447"
+   sodipodi:docname="dedicated-server.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)">
+  <metadata
+     id="metadata2453">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2451" />
+  <sodipodi:namedview
+     inkscape:document-rotation="0"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1017"
+     id="namedview2449"
+     showgrid="false"
+     inkscape:zoom="14.166667"
+     inkscape:cx="2.82353"
+     inkscape:cy="30"
+     inkscape:window-x="2552"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2447" />
+  <style
+     id="style2353"><![CDATA[.E{fill:#4caf50}.F{fill:#44484e}.G{fill:#1f2835}.H{stroke-width:.5}.I{stroke-miterlimit:10}]]></style>
+  <path
+     d="M55.4 58.5H4.6c-2 0-3.6-1.6-3.6-3.6V43.1c0-2 1.6-3.6 3.6-3.6h50.8c2 0 3.6 1.6 3.6 3.6v11.8c0 2-1.6 3.6-3.6 3.6z"
+     stroke="#fff"
+     class="G H I"
+     id="path2355"
+     style="fill:#333333;fill-opacity:1" />
+  <circle
+     cx="50"
+     cy="47.5"
+     r="1"
+     class="F"
+     id="circle2357" />
+  <g
+     class="E"
+     id="g2363"
+     style="fill:#b7151d;fill-opacity:1">
+    <circle
+       cx="46"
+       cy="47.5"
+       r="1"
+       id="circle2359"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="52"
+       cy="50.5"
+       r="1"
+       id="circle2361"
+       style="fill:#b7151d;fill-opacity:1" />
+  </g>
+  <g
+     class="F"
+     id="g2369">
+    <circle
+       cx="48"
+       cy="50.5"
+       r="1"
+       id="circle2365" />
+    <circle
+       cx="42"
+       cy="47.5"
+       r="1"
+       id="circle2367" />
+  </g>
+  <g
+     class="E"
+     id="g2375"
+     style="fill:#b7151d;fill-opacity:1">
+    <circle
+       cx="44"
+       cy="50.5"
+       r="1"
+       id="circle2371"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="38"
+       cy="47.5"
+       r="1"
+       id="circle2373"
+       style="fill:#b7151d;fill-opacity:1" />
+  </g>
+  <circle
+     cx="40"
+     cy="50.5"
+     r="1"
+     class="F"
+     id="circle2377" />
+  <g
+     class="E"
+     id="g2385"
+     style="fill:#b7151d;fill-opacity:1">
+    <circle
+       cx="34"
+       cy="47.5"
+       r="1"
+       id="circle2379"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="36"
+       cy="50.5"
+       r="1"
+       id="circle2381"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="10.5"
+       cy="49"
+       r="3.3"
+       id="circle2383"
+       style="fill:#b7151d;fill-opacity:1" />
+  </g>
+  <path
+     d="M10.5 46c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3m0-.5C8.6 45.5 7 47.1 7 49s1.6 3.5 3.5 3.5S14 50.9 14 49s-1.6-3.5-3.5-3.5z"
+     fill="#fff"
+     id="path2387" />
+  <path
+     d="M55.4 39.5H4.6c-2 0-3.6-1.6-3.6-3.6V24.1c0-2 1.6-3.6 3.6-3.6h50.8c2 0 3.6 1.6 3.6 3.6v11.8c0 2-1.6 3.6-3.6 3.6z"
+     stroke="#fff"
+     class="G H I"
+     id="path2389"
+     style="fill:#333333;fill-opacity:1" />
+  <g
+     class="E"
+     id="g2413"
+     style="fill:#b7151d;fill-opacity:1">
+    <circle
+       cx="50"
+       cy="28.5"
+       r="1"
+       id="circle2391"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="46"
+       cy="28.5"
+       r="1"
+       id="circle2393"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="52"
+       cy="31.5"
+       r="1"
+       id="circle2395"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="48"
+       cy="31.5"
+       r="1"
+       id="circle2397"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="42"
+       cy="28.5"
+       r="1"
+       id="circle2399"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="44"
+       cy="31.5"
+       r="1"
+       id="circle2401"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="38"
+       cy="28.5"
+       r="1"
+       id="circle2403"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="40"
+       cy="31.5"
+       r="1"
+       id="circle2405"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="34"
+       cy="28.5"
+       r="1"
+       id="circle2407"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="36"
+       cy="31.5"
+       r="1"
+       id="circle2409"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="10.5"
+       cy="30"
+       r="3.3"
+       id="circle2411"
+       style="fill:#b7151d;fill-opacity:1" />
+  </g>
+  <path
+     d="M10.5 27c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3m0-.5C8.6 26.5 7 28.1 7 30s1.6 3.5 3.5 3.5S14 31.9 14 30s-1.6-3.5-3.5-3.5z"
+     fill="#fff"
+     id="path2415" />
+  <path
+     d="M55.4 20.5H4.6c-2 0-3.6-1.6-3.6-3.6V5.1c0-2 1.6-3.6 3.6-3.6h50.8c2 0 3.6 1.6 3.6 3.6v11.8c0 2-1.6 3.6-3.6 3.6z"
+     stroke="#fff"
+     class="G H I"
+     id="path2417"
+     style="fill:#333333;fill-opacity:1" />
+  <circle
+     cx="50"
+     cy="9.5"
+     r="1"
+     class="E"
+     id="circle2419"
+     style="fill:#b7151d;fill-opacity:1" />
+  <circle
+     cx="46"
+     cy="9.5"
+     r="1"
+     class="F"
+     id="circle2421" />
+  <circle
+     cx="52"
+     cy="12.5"
+     r="1"
+     class="E"
+     id="circle2423"
+     style="fill:#b7151d;fill-opacity:1" />
+  <circle
+     cx="48"
+     cy="12.5"
+     r="1"
+     class="F"
+     id="circle2425" />
+  <g
+     class="E"
+     id="g2431"
+     style="fill:#b7151d;fill-opacity:1">
+    <circle
+       cx="42"
+       cy="9.5"
+       r="1"
+       id="circle2427"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="44"
+       cy="12.5"
+       r="1"
+       id="circle2429"
+       style="fill:#b7151d;fill-opacity:1" />
+  </g>
+  <circle
+     cx="38"
+     cy="9.5"
+     r="1"
+     class="F"
+     id="circle2433" />
+  <g
+     class="E"
+     id="g2439"
+     style="fill:#b7151d;fill-opacity:1">
+    <circle
+       cx="40"
+       cy="12.5"
+       r="1"
+       id="circle2435"
+       style="fill:#b7151d;fill-opacity:1" />
+    <circle
+       cx="34"
+       cy="9.5"
+       r="1"
+       id="circle2437"
+       style="fill:#b7151d;fill-opacity:1" />
+  </g>
+  <circle
+     cx="36"
+     cy="12.5"
+     r="1"
+     class="F"
+     id="circle2441" />
+  <circle
+     cx="10.5"
+     cy="11"
+     r="3.3"
+     class="E"
+     id="circle2443"
+     style="fill:#b7151d;fill-opacity:1" />
+  <path
+     d="M10.5 8c1.7 0 3 1.3 3 3s-1.3 3-3 3-3-1.3-3-3 1.3-3 3-3m0-.5C8.6 7.5 7 9.1 7 11s1.6 3.5 3.5 3.5S14 12.9 14 11s-1.6-3.5-3.5-3.5z"
+     fill="#fff"
+     id="path2445" />
+</svg>

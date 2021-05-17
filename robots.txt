@@ -1,0 +1,19 @@
+# Google AdSense
+User-agent: Mediapartners-Google
+Disallow: /
+
+# Digg mirror
+User-agent: duggmirror
+Disallow: /
+
+# Omni Explorer
+User-Agent: OmniExplorer_Bot
+Disallow: /
+
+#SEO
+User-agent: *
+Disallow: /include/
+Disallow: /send-en.php
+Disallow: /send-pt.php
+
+Sitemap: https://www.mozweb.co.mz/sitemap.xml
