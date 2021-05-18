@@ -13,7 +13,7 @@ $lang['css_file_meta'] = '<link rel="stylesheet" href="https://maxcdn.bootstrapc
 <link rel="stylesheet" href="https://www.mozweb.co.mz/assets/css/magnific-popup.css">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:600,500,700" rel="stylesheet">
 <link rel="stylesheet" href="http://localhost/assets/css/default/style.css">
-<link rel="stylesheet" href="https://www.mozweb.co.mz/assets/css/default/responsive.css">';
+<link rel="stylesheet" href="http://localhost/assets/css/default/responsive.css">';
 /* ------------------ FILE: index.php ------------------*/
 $lang['file_lang'] = 'pt-MZ';
 $lang['whmcs_lang_parameter'] = '';

@@ -19,8 +19,13 @@
 #openinghours .table>tbody>tr>td{border:1px solid #ddd}
 
 /*----------------------------------------
+
 SECTION-TITLE STYLE
 ------------------------------------------*/
+
+body {
+  overflow-x: hidden;
+}
 
 .section-title {
 margin-bottom: 80px;
@@ -601,6 +606,7 @@ color: #f0f1f1;
 padding: 20px;
 position: relative;
 z-index: 9;
+font-size: 14px;
 }
 header.header-top-area.corner-shape:after {
 display: none;
@@ -699,7 +705,7 @@ padding-right: 25px;
 padding-right: 13px;
 }
 .header-top-right a {
-margin-left: 40px;
+margin-left: 38px;
 text-decoration: none;
 color: #f0f1f1;
 text-transform: capitalize;
@@ -1708,6 +1714,7 @@ p {
   font-weight: 300;
   color: #000000;
   line-height: 20px;
+  font-size: 14px;
   /*letter-spacing: 1px;*/
 }
 .hostpressUnList li:before {
@@ -1842,6 +1849,7 @@ textarea.form-control {
   top: 0px;
   box-shadow: none;
   z-index:3;
+  font-size: 14px !important;
 }
 .fluid_header .navbar-header {
   z-index: 1000;
@@ -1879,9 +1887,9 @@ textarea.form-control {
 .fluid_header .navbar-nav.navbar-right li a {
   color: #303030;
   line-height: 100px;
-  padding: 0 21px;
+  padding: 0 14px;
   background-image: none;
-  background-color: #fff;
+  /* background-color: #fff; */
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -1899,7 +1907,7 @@ textarea.form-control {
   transform: rotate(45deg);
   left: calc(50% - 11px);
   bottom: -8px;
-  display: none;
+  display: none !important;
   z-index: 1001;
   border-radius: 3px;
 }
@@ -1922,6 +1930,7 @@ textarea.form-control {
   color: #303030;
   position: relative;
   text-transform:capitalize;
+  font-size: 14px;
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown .dropdown-menu li a:after {
   display: none;
@@ -1974,6 +1983,7 @@ textarea.form-control {
   text-transform:capitalize;
   font-weight: 400;
   display: inline-block;
+  font-size: 14px;
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown.mega-drop .mega-menu li.service_list .service .media .media-body a:hover {
   background: none;
@@ -2120,10 +2130,16 @@ footer {
   background-size: contain;
   background-position: center center;
 }
+footer .top_footer {
+  width: 100%;
+}
 footer .top_footer .quick_contact {
   background: rgba(255, 255, 255, 0.14);
   padding: 17px 0;
   margin-bottom: 76px;
+}
+footer .top_footer .quick_contact .nav {
+  width: 100%;
 }
 footer .top_footer .quick_contact .nav li {
   width: 32%;
@@ -2357,6 +2373,10 @@ footer .copyright_line {
   font-weight: 300;
   /*letter-spacing: 1px;*/
   font-size: 13px;
+  width: 100%;
+}
+footer .copyright_line strong {
+  font-weight: bold;
 }
 /*----------------------------------------------------------------*/
 .serviceTab .service_tab_menu {
@@ -2421,7 +2441,7 @@ footer .copyright_line {
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
   line-height: 1;
-  margin: 110px 0 20px;
+  margin: 75px 0 20px;
   color: #000000;
 }
 .serviceTab .serviceTab_contents .tab-content .tab-pane p {
@@ -2429,10 +2449,10 @@ footer .copyright_line {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   line-height: 24px;
-  margin-bottom: 40px;
+  margin-bottom: 23px;
 }
 .serviceTab .serviceTab_contents .tab-content .tab-pane ul {
-  margin-bottom: 45px;
+  margin-bottom: 20px;
 }
 .serviceTab .serviceTab_contents .tab-content .tab-pane .service_ico {
   position: absolute;
@@ -2481,7 +2501,8 @@ footer .copyright_line {
   border: none;
   padding: 29px 45px;
   margin: 0;
-  background: #F3F4F5
+  background: #F3F4F5;
+  font-size: 14px;
 }
 .serviceTab.serviceTab_byside .service_tab_menu .nav li a:before {
   display: none;
@@ -2500,6 +2521,7 @@ footer .copyright_line {
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .ico_pic {
   width: 55%;
+  float: left;
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .ico_pic .service_ico {
   width: 180px;
@@ -2511,6 +2533,7 @@ footer .copyright_line {
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .texts {
   width: 45%;
+  float: left;
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .texts .btn {
   float: left;
@@ -2529,6 +2552,7 @@ footer .copyright_line {
 }
 .service_tabs_list .service_tab {
   padding: 100px 0 95px;
+  width: 100%;
 }
 .service_tabs_list .service_tab .ico_price .ico {
   width: 339px;
@@ -2609,6 +2633,7 @@ footer .copyright_line {
 .sectionTitle h2 {
   font-size: 40px;
   font-weight: 100;
+  margin: 0 auto;
 }
 .sectionTitle.text-left {
   text-align: left;
@@ -3256,6 +3281,7 @@ footer .copyright_line {
   background: #fff;
   margin-top: 13px;
   text-align: center;
+  float: left;
 }
 .pricing_plan_cell .plan_type {
   height: 118px;
@@ -3267,6 +3293,9 @@ footer .copyright_line {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
+}
+.pricing_plan_cell .plan_type .plan-type-item {
+  margin: 0 auto;
 }
 .pricing_plan_cell .plan_type span {
   position: absolute;
@@ -3305,6 +3334,9 @@ footer .copyright_line {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   /*letter-spacing: 1px;*/
+}
+.pricing_plan_cell .pricing_row .pricing_row_type {
+  margin: 0 auto;
 }
 .pricing_plan_cell .pricing_row .price {
   font-family: 'Montserrat', sans-serif;
@@ -3350,6 +3382,7 @@ footer .copyright_line {
   font-weight: 300;
   color: #000000;
   font-size: 15px;
+  width: 100%;
 }
 .pricing_plan_cell .nav li .fa-check {
   color: #52a51b;
@@ -3358,7 +3391,7 @@ footer .copyright_line {
   color: #cf1b41;
 }
 .pricing_plan_cell .btn {
-  margin: 30px 0 45px;
+  margin: 30px auto;
 }
 .pricing_plan_cell .btn.visible-none {
   visibility: hidden;
@@ -3842,6 +3875,7 @@ footer .copyright_line {
 }
 .find_domain .domain_search .price_list {
   margin-top: 22px;
+  width: 100%;
 }
 .find_domain .domain_search .price_list li {
   padding: 0 35px;
@@ -4281,6 +4315,7 @@ footer .copyright_line {
   background: url(../../images/bg_contato.jpg) no-repeat scroll center top;
   background-size: cover;
   padding: 100px 0 120px;
+  width: 100%;
 }
 .contact_banner h4 {
   color: #fff;
@@ -4605,6 +4640,10 @@ footer .copyright_line {
 .this_top_features .this_top_feature {
   background: #fff;
   padding: 82px 0 57px;
+  width: 100%;
+}
+.this_top_features .this_top_feature .media {
+  flex-wrap: wrap;
 }
 .this_top_features .this_top_feature .media-left {
   width: 448px;
@@ -4647,6 +4686,9 @@ footer .copyright_line {
   position: absolute;
   width: 100%;
   top: calc(50% - 145px);
+}
+.home_slider .item .slide_caption h4 {
+  font-size: 18px;
 }
 .home_slider .item .slide_caption h2 {
   font-size: 65px;
@@ -4955,6 +4997,8 @@ footer .copyright_line {
   cursor: pointer;
   background: #f9f9f9;
   margin: 0;
+  font-size: 14px;
+  display: flex;
 }
 .featureTab .feature_tab_menu .nav li a:before {
   content: '';
@@ -4990,6 +5034,12 @@ footer .copyright_line {
 .featureTab .feature_tab_menu .nav li.active a:before {
   height: 5px;
 }
+.featureTab .featureTab_contents {
+  margin: 0 auto;
+}
+.featureTab .featureTab_contents .tab-content {
+  width: 100%;
+}
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row {
   padding: 115px 0;
 }
@@ -5007,7 +5057,7 @@ footer .copyright_line {
   line-height: 28px;
 }
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row .btn {
-  margin-top: 35px;
+  margin: 35px auto;
 }
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row.content_row2 .sectionTitle {
   margin-bottom: 45px;
@@ -5031,19 +5081,27 @@ footer .copyright_line {
   margin-top: 15px;
   padding-top: 0;
 }
+.featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature {
+  float: left;
+}
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner {
   text-align: center;
   padding: 59px 0 45px;
   border: 1px solid #dae0e2;
 }
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner h3 {
-  margin-top: 5px;
+  margin: 5px auto;
   font-size: 23px;
   font-weight: 300;
+}
+.featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner h4 {
+  margin: 0 auto;
+  font-size: 18px;
 }
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner .icon {
   line-height: 208px;
   padding: 43px 0 57px;
+  margin: 0 auto;
 }
 /*----------------------------------------------------------------*/
 /* feature section 7 */

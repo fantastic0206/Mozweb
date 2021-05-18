@@ -35,8 +35,7 @@
 <li><a href="<?php echo $lang['header_menu_link_23'];?>"><?php echo $lang['mozweb_footer_content_15'];?></a></li>
 </ul>
 </div>
-<div class="col-sm-2 product">
-<br><br><br>
+<div class="col-sm-2 product mt-5 pt-3">
 <ul class="hostpressUnList">
 <li><a href="<?php echo $lang['header_menu_link_24'];?>"><?php echo $lang['mozweb_footer_content_16'];?></a></li>
 <li><a href="https://www.mozweb.co.mz/blog" target="_blank"><?php echo $lang['mozweb_footer_content_17'];?></a></li>

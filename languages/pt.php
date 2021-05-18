@@ -247,7 +247,7 @@ $lang['partilhado_Linux_content_10'] = '<ul class="nav">
 <li>1024MB</li>
 <li>100.000</i></li>
 </ul>';
-$lang['partilhado_Linux_content_11'] = 'NEGÓCIO <span>+ Vendido</span>';
+$lang['partilhado_Linux_content_11'] = '<div class="plan-type-item">NEGÓCIO</div> <span>+ Vendido</span>';
 $lang['partilhado_Linux_content_12'] = '<ul class="nav">
 <li>Ilimitado</li>
 <li>Ilimitado</li>

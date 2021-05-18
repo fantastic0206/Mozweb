@@ -1,5 +1,5 @@
 <?php if(count(get_included_files()) ==1) exit("Direct access not permitted."); ?>
-<section class="row featureTab">
+<section class="featureTab">
 <div class="row feature_tab_menu m0">
 <div class="container">
 <div class="row">

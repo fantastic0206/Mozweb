@@ -248,6 +248,7 @@
 @media (max-width: 991px) {
   .fluid_header.centered .container {
     width: 100%;
+    flex-wrap: wrap;
   }
   .fluid_header.centered .navbar-header {
     width: auto;
@@ -289,6 +290,9 @@
     font-size: 13px;
     line-height: 24px;
   }
+  .top_header .header-top-left ul li a {
+    top: 6px;
+  }
   .top_header .container {
     width: 100%;
   }
@@ -327,7 +331,7 @@
     margin: 0;
   }
   .fluid_header .navbar-nav.navbar-right {
-    height: 300px;
+    /* height: 300px; */
     margin: 0;
   }
   .fluid_header .navbar-nav.navbar-right li.dropdown .-menu {
@@ -472,6 +476,12 @@
   }
 }
 @media (max-width: 767px) {
+  .fluid_header .navbar-nav.navbar-right li.dropdown .dropdown-menu {
+    display: none;
+  }
+  .fluid_header .navbar-nav.navbar-right li.dropdown:hover .dropdown-menu {
+    display: block;
+  }
   footer .top_footer .quick_contact {
     padding: 10px 0;
   }
@@ -615,6 +625,14 @@
   }
 }
 @media (max-width: 767px) {
+  .serviceTab .service-tab-menu-1 {
+    max-width: 100%;
+    flex: auto;
+  }
+  .serviceTab .service-tab-menu-2 {
+    max-width: 100%;
+    flex: auto;
+  }
   .serviceTab .service_tab_menu {
     border-bottom: 2px solid #090d20;
   }
@@ -697,14 +715,19 @@
     float: left;
   }
   .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .ico_pic {
-    width: 300px;
+    /* width: 300px; */
     margin: 0 auto 30px;
+    max-width: 100%;
+    flex: auto;
+    width: 100%;
   }
   .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .ico_pic .service_img {
     float: none;
   }
   .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .texts {
     float: none;
+    max-width: 100%;
+    flex: auto;
     width: 100%;
   }
   .service_tabs_list .service_tab .ico_price {
@@ -828,6 +851,8 @@
   .cause2choose {
     margin-top: 40px;
     min-height: auto;
+    max-width: 100%;
+    flex: auto;
   }
   .cause2choose:nth-child(2),
   .cause2choose:nth-child(3) {
@@ -947,12 +972,11 @@
     margin: 0;
     line-height: 50px;
   }
-  .pricing_plan_table .container {
+  .pricing_plan_table .pricing_plan_table-1 {
     overflow-x: scroll;
   }
   .pricing_plan_table .table-responsive {
     width: 830px;
-    overflow-x: scroll;
     padding: 0 15px;
   }
   .pricing_plan_table .table-responsive .pricing_plan_cell {
@@ -1363,10 +1387,18 @@
   .contact_content .form_row .form_side {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 100%;
+    flex: auto;
   }
   .contact_content .form_row .detail_address {
     padding-left: 15px;
     padding-right: 15px;
+    max-width: 100%;
+    flex: auto;
+  }
+  .contact_content .we_support .we_support-3 {
+    max-width: 100%;
+    flex: auto;
   }
 }
 /*----------------------------------------------------------------*/
@@ -1424,6 +1456,12 @@
   }
 }
 @media (max-width: 767px) {
+  #domaintlds .section-title p {
+    padding: unset;
+  }
+  .hosting_featue .section-title p {
+    padding: unset;
+  }
   .like_us {
     text-align: center;
   }
@@ -1711,17 +1749,22 @@
     min-height: auto;
   }
   .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature {
-    width: 100%;
+    max-width: 100%;
     margin-bottom: -1px;
   }
   .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner {
     padding: 40px 0;
+    display: inline-block;
+    width: 100%;
   }
   .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner .icon {
     padding: 40px 15px;
   }
   .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature .inner .btn {
     margin-top: 0;
+  }
+  .featureTab .featureTab_contents .tab-content .tab-pane .content_row .tech_feature img {
+    margin: 0 auto;
   }
 }
 @media (max-width: 767px) {
@@ -1734,6 +1777,18 @@
   }
   .featureTab .featureTab_contents .tab-content .tab-pane .content_row .row {
     margin: 0;
+  }
+  .featureTab .featureTab_contents .tab-content .tab-pane .content_row .row .col-sm-5 {
+    max-width: 100%;
+    flex: auto;
+  }
+  .featureTab .featureTab_contents .tab-content .tab-pane .content_row .row .col-sm-7 {
+    max-width: 100%;
+    flex: auto;
+  }
+  .featureTab .featureTab_contents .tab-content .tab-pane .content_row .row .col-sm-6 {
+    max-width: 100%;
+    flex: auto;
   }
   .featureTab .featureTab_contents .tab-content .tab-pane .content_row .under_hood {
     width: 100%;

@@ -26,7 +26,7 @@
 </head>
 <body class="shortcode">
 <?php include_once(dirname(__DIR__) ."/include/header-menu.php")?>
-<section class="row find_domain find_domain3">
+<section class="find_domain find_domain3">
 <div class="row m0 find_domain_cover">
 <div class="container">
 <div class="row">
