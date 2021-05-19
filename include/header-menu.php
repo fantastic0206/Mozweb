@@ -41,14 +41,17 @@ $first_part = $components[1];
         </div>
     </div>
 </header>
-<nav class="navbar navbar-light bg-light navbar-static-top fluid_header centered navbar-expand-md">
+<nav class="navbar navbar-light bg-light navbar-static-top fluid_header centered navbar-expand-md" id="nav_bar">
     <div class="container">
         <div class="navbar-header">
             <a class="navbar-brand" href="<?php echo $lang['head_website_home']; ?>">
                 <img src="<?php echo $lang['website_global_img_link']; ?>assets/images/logo/mozweb.svg" width="240px" alt="MOZWEB">
             </a>
-            <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#main_navigation" aria-expanded="false">
-                <span class="sr-only">MENU</span>&#x2630;
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main_navigation" aria-expanded="false">
+                <span class="sr-only">MENU</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
         </div>
         <div class="collapse navbar-collapse" id="main_navigation">

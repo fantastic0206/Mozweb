@@ -55,7 +55,7 @@
                             <input type="text" class="form-control" placeholder="<?php echo $lang['contacto_content_9']; ?>" name="subject" id="subject" required>
                             <textarea class="form-control" placeholder="<?php echo $lang['contacto_content_10']; ?>" name="message" id="message" required></textarea>
                             <div class="g-recaptcha" data-sitekey="6LcoYPEUAAAAAP48ZsJhL6UFBnlZi1xtKONkEWbU"></div><br>
-                            <input type="submit" value="<?php echo $lang['contacto_content_11']; ?>" class="btn btn-primary">
+                            <input type="submit" value="<?php echo $lang['contacto_content_11']; ?>" class="btn btn-primary mt-3">
                             <p class="contact-send-message"></p>
                         </form>
                     </div>

@@ -1,6 +1,6 @@
 <?php if(count(get_included_files()) ==1) exit("Direct access not permitted."); ?>
 <section class="row why_choose hosting_featue">
-<div class="container">
+<div class="container mb-5 pb-5">
 <div class="section-title text-center">
 <?php echo $lang['partilhado_Linux_content_15'];?>
 </div> <br><br>

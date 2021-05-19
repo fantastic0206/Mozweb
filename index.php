@@ -108,7 +108,7 @@
                 <div class="col-sm-3 service-tab-menu-1">
                     <div class="row service_tab_menu">
                         <ul class="nav nav-tabs" role="tablist">
-                            <li role="presentation" class="active"><a href="#serviceT1" aria-controls="serviceT1" role="tab" data-toggle="tab" class="nav-link"><img src="" class="icon"><?php echo $lang['home_index_content_5']; ?></a>
+                            <li role="presentation"><a href="#serviceT1" aria-controls="serviceT1" role="tab" data-toggle="tab" class="nav-link active show"><img src="" class="icon"><?php echo $lang['home_index_content_5']; ?></a>
                             </li>
                             <li role="presentation"><a href="#serviceT2" aria-controls="serviceT2" role="tab" data-toggle="tab" class="nav-link"><img src="" class="icon"><?php echo $lang['home_index_content_6']; ?></a>
                             </li>

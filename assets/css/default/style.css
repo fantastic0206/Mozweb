@@ -22,9 +22,18 @@
 
 SECTION-TITLE STYLE
 ------------------------------------------*/
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-body {
-  overflow-x: hidden;
+.sticky + .row {
+  padding-top: 120px;
+}
+
+strong, b {
+  font-weight: bold;
 }
 
 .section-title {
@@ -48,7 +57,6 @@ color: #1f2835;
 font-size: 36px;
 font-family: 'Montserrat', sans-serif;
 }
-
 
 .prewhois {
 font-size: 100%;
@@ -1417,6 +1425,18 @@ h6 {
   color: #000000;
   margin: 0;
 }
+h1 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
 p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
@@ -1457,6 +1477,7 @@ p {
   line-height: 46px;
   font-family: 'Montserrat', sans-serif;
   color: #000000;
+  font-size: 16px;
   /*letter-spacing: 1px;*/
 }
 .accordion .panel .panel-heading .panel-title a:before,
@@ -1514,6 +1535,7 @@ p {
 }
 .faqs_accordion .panel .panel-heading .panel-title a {
   line-height: 24px;
+  font-size: 16px;
 }
 .faqs_accordion .panel .panel-heading .panel-title a:before {
   display: none;
@@ -1615,6 +1637,9 @@ p {
 .dl-button dd:last-child {
   margin-bottom: 0;
 }
+.g-recaptcha {
+  width: 100%;
+}
 .btn {
   color: #fff;
   /*letter-spacing: 1px;*/
@@ -1629,6 +1654,7 @@ p {
   box-shadow: none;
   background: #121a3e;
   text-shadow: none;
+  font-size: 14px;
 }
 .grecaptcha-badge { opacity: 0 } 
 .btn:hover {
@@ -1789,6 +1815,7 @@ p {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
   color: #000000;
+  font-size: 14px;
 }
 .form-control > .btn {
   background: #f7f7f7;
@@ -1850,13 +1877,14 @@ textarea.form-control {
   box-shadow: none;
   z-index:3;
   font-size: 14px !important;
+  padding: 0;
 }
 .fluid_header .navbar-header {
   z-index: 1000;
 }
 .fluid_header .navbar-header .navbar-brand {
   z-index: 2;
-  padding: 21px 15px;
+  padding: 21px 0;
   height: auto;
 }
 .fluid_header .navbar-header .navbar-brand img {
@@ -1887,7 +1915,7 @@ textarea.form-control {
 .fluid_header .navbar-nav.navbar-right li a {
   color: #303030;
   line-height: 100px;
-  padding: 0 14px;
+  padding: 0 21px;
   background-image: none;
   /* background-color: #fff; */
   text-transform: uppercase;
@@ -1902,7 +1930,7 @@ textarea.form-control {
   content: '';
   width: 15px;
   height: 15px;
-  display: block;
+  /* display: block; */
   position: absolute;
   transform: rotate(45deg);
   left: calc(50% - 11px);
@@ -1912,7 +1940,6 @@ textarea.form-control {
   border-radius: 3px;
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown .dropdown-menu {
-  border: none;
   border-top: 1px solid #fff;
   min-width: 200px;
   border-radius: 0;
@@ -1933,10 +1960,11 @@ textarea.form-control {
   font-size: 14px;
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown .dropdown-menu li a:after {
-  display: none;
+  /* display: none; */
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown .dropdown-menu li a:hover {
   color: #EF2929;
+  background-color: unset;
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown.mega-drop {
   position: static;
@@ -2059,10 +2087,10 @@ textarea.form-control {
   box-shadow: none;
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown.open a:after {
-  display: block;
+  /* display: block; */
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown:hover a:after {
-  display: block;
+  /* display: block; */
 }
 .fluid_header .navbar-nav.navbar-right li.dropdown:hover .dropdown-menu {
   transform: scale(1, 1);
@@ -2078,6 +2106,9 @@ textarea.form-control {
 }
 .fluid_header.centered .navbar-collapse .navbar-nav.navbar-right li.login-link a {
   background: #ee1d1d;
+}
+.fluid_header.centered .navbar-header .navbar-toggle {
+  display: none;
 }
 /*
 .top_header {
@@ -2117,12 +2148,7 @@ textarea.form-control {
 .top_header .nav li:nth-child(2) {
   margin-right: 29px;
 }*/
-.fluid_header .navbar-nav.navbar-right li.dropdown.mega-drop:hover .dropdown-menu,
-.fluid_header .navbar-nav.navbar-right li.open .dropdown-menu {
-  transform: scale(1, 1);
-  -webkit-transform: scale(1, 1);
-  display: inline-block;
-}
+
 /*----------------------------------------------------------------*/
 footer {
   background: #333333 url(../../images/footer-bg-graph.png);
@@ -2443,6 +2469,7 @@ footer .copyright_line strong {
   line-height: 1;
   margin: 75px 0 20px;
   color: #000000;
+  font-size: 24px;
 }
 .serviceTab .serviceTab_contents .tab-content .tab-pane p {
   color: #000000;
@@ -2512,6 +2539,10 @@ footer .copyright_line strong {
   color: #fff;
   background: #941E1E;
 }
+.serviceTab.serviceTab_byside .service_tab_menu .nav li a.active.show {
+  color: #fff;
+  background: #EF2929;
+}
 .serviceTab.serviceTab_byside .service_tab_menu .nav li.active a {
   color: #fff;
   background: #EF2929;
@@ -2532,11 +2563,12 @@ footer .copyright_line strong {
   background: #fff;
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .texts {
-  width: 45%;
+  width: 47%;
   float: left;
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .texts .btn {
   float: left;
+  font-size: 14px;
 }
 .serviceTab.serviceTab_byside .serviceTab_contents .tab-content .tab-pane .texts .btn + .pkg_price {
   line-height: 40px;
@@ -2614,6 +2646,7 @@ footer .copyright_line strong {
 }
 .service_tabs_list .service_tab .content .btn {
   margin-top: 40px;
+  font-size: 14px;
 }
 .service_tabs_list .service_tab:nth-child(odd) {
   background: #F3F4F5
@@ -2629,6 +2662,12 @@ footer .copyright_line strong {
 .sectionTitle {
   text-align: center;
   margin-bottom: 50px;
+}
+.sectionTitle h3 {
+  width: 100%;
+}
+.sectionTitle h5 {
+  width: 100%;
 }
 .sectionTitle h2 {
   font-size: 40px;
@@ -3335,6 +3374,9 @@ footer .copyright_line strong {
   font-family: 'Montserrat', sans-serif;
   /*letter-spacing: 1px;*/
 }
+.pricing_plan_cell .pricing_row small {
+  font-weight: bold;
+}
 .pricing_plan_cell .pricing_row .pricing_row_type {
   margin: 0 auto;
 }
@@ -3795,6 +3837,7 @@ footer .copyright_line strong {
 .find_domain .domain_search .form_title h5 {
   color: #fff;
   font-weight: 300;
+  font-size: 14px;
 }
 .find_domain .domain_search .form_title h2 {
   font-size: 36px;
@@ -3872,6 +3915,7 @@ footer .copyright_line strong {
   /*letter-spacing: 1px;*/
   border: none;
   line-height: 50px;
+  font-size: 14px;
 }
 .find_domain .domain_search .price_list {
   margin-top: 22px;
@@ -3884,6 +3928,7 @@ footer .copyright_line strong {
   font-weight: bold;
   text-transform: uppercase;
   line-height: 33px;
+  font-size: 14px;
 }
 .find_domain .domain_search .price_list li + li {
   border-left: 1px solid #3f476c;
@@ -4646,11 +4691,9 @@ footer .copyright_line strong {
   flex-wrap: wrap;
 }
 .this_top_features .this_top_feature .media-left {
-  width: 448px;
   padding-right: 100px;
 }
 .this_top_features .this_top_feature .media-right {
-  width: 448px;
   padding-left: 100px;
 }
 .this_top_features .this_top_feature .media-body h2 {
@@ -5000,7 +5043,7 @@ footer .copyright_line strong {
   font-size: 14px;
   display: flex;
 }
-.featureTab .feature_tab_menu .nav li a:before {
+.featureTab .feature_tab_menu .nav li:before {
   content: '';
   width: 100%;
   height: 0;
@@ -5009,6 +5052,10 @@ footer .copyright_line strong {
   top: 0;
   left: 0;
   background: #EF2929;
+}
+.featureTab .feature_tab_menu .nav li a.active.show {
+  border-top: 5px solid #EF2929;
+  background: #fff;
 }
 .featureTab .feature_tab_menu .nav li a .icon {
   float: left;
@@ -5058,6 +5105,7 @@ footer .copyright_line strong {
 }
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row .btn {
   margin: 35px auto;
+  font-size: 14px;
 }
 .featureTab .featureTab_contents .tab-content .tab-pane .content_row.content_row2 .sectionTitle {
   margin-bottom: 45px;

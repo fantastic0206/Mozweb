@@ -14,7 +14,7 @@
 <a role="button" data-toggle="collapse" data-parent="#faqs_accordion" href="#collapse1" aria-expanded="true" aria-controls="collapse1"><?php echo $lang['partilhado_Linux_content_64'];?></a>
 </h4>
 </div>
-<div id="collapse1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading1">
+<div id="collapse1" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="heading1">
 <div class="panel-body"><?php echo $lang['partilhado_Linux_content_65'];?>
 </div>
 </div>

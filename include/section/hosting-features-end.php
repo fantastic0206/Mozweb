@@ -4,7 +4,7 @@
 <div class="container">
 <div class="row">
 <ul class="nav nav-tabs" role="tablist">
-<li role="presentation" class="active"><a href="#featureT1" aria-controls="featureT1" role="tab" data-toggle="tab">
+<li role="presentation"><a href="#featureT1" class="active show" aria-controls="featureT1" role="tab" data-toggle="tab">
 <img src="<?php echo $lang['website_global_img_link'];?>assets/images/icons/safe.svg" width="54px" class="icon"> <?php echo $lang['partilhado_Linux_content_44'];?>
 </a></li>
 <li role="presentation"><a href="#featureT2" aria-controls="featureT2" role="tab" data-toggle="tab">
