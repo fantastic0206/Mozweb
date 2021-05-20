@@ -52,6 +52,26 @@
       },
     });
 
+    $("#dropdown_toggle_show_1").click(function () {
+      $("#dropdown_menu_show_1").slideToggle();
+    });
+
+    $("#dropdown_toggle_show_2").click(function () {
+      $("#dropdown_menu_show_2").slideToggle();
+    });
+
+    $("#dropdown_toggle_show_3").click(function () {
+      $("#dropdown_menu_show_3").slideToggle();
+    });
+
+    $("#dropdown_toggle_show_4").click(function () {
+      $("#dropdown_menu_show_4").slideToggle();
+    });
+
+    $("#dropdown_toggle_show_5").click(function () {
+      $("#dropdown_menu_show_5").slideToggle();
+    });
+
     window.onscroll = function () {
       myFunction();
     };

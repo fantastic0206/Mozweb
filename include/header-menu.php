@@ -57,8 +57,8 @@ $first_part = $components[1];
         <div class="collapse navbar-collapse" id="main_navigation">
             <ul class="nav navbar-nav navbar-right">
                 <li class="dropdown mega-drop">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_1']; ?> <i class="fa fa-angle-double-down"></i></a>
-                    <ul class="dropdown-menu hosting-dropdown mega-menu">
+                    <a href="#" id="dropdown_toggle_show_1" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_1']; ?> <i class="fa fa-angle-double-down"></i></a>
+                    <ul id="dropdown_menu_show_1" class="dropdown-menu hosting-dropdown mega-menu">
                         <li class="service_list">
                             <div class="fleft service service1">
                                 <div class="media">
@@ -103,8 +103,8 @@ $first_part = $components[1];
                 </li>
             </ul>
             <li class="dropdown mega-drop">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_12']; ?> <i class="fa fa-angle-double-down"></i></a>
-                <ul class="dropdown-menu hosting-dropdown mega-menu">
+                <a href="#" id="dropdown_toggle_show_2" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_12']; ?> <i class="fa fa-angle-double-down"></i></a>
+                <ul id="dropdown_menu_show_2" class="dropdown-menu hosting-dropdown mega-menu">
                     <li class="service_list">
                         <div class="fleft service service1">
                             <div class="media">
@@ -149,8 +149,8 @@ $first_part = $components[1];
             </li>
             </ul>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_21']; ?> <i class="fa fa-angle-double-down"></i></a>
-                <ul class="dropdown-menu">
+                <a href="#" id="dropdown_toggle_show_3" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_21']; ?> <i class="fa fa-angle-double-down"></i></a>
+                <ul id="dropdown_menu_show_3" class="dropdown-menu">
                     <li><a href="<?php echo $lang['header_menu_link_12']; ?>"><span class="fal fa-globe"></span>&nbsp;&nbsp;<?php echo $lang['header_menu_content_22']; ?></a></li>
                     <li><a href="<?php echo $lang['header_menu_link_13']; ?><?php echo $lang['whmcs_lang_parameter']; ?>"><span class="fal fa-exchange-alt"></span>&nbsp;&nbsp;<?php echo $lang['header_menu_content_23']; ?></a></li>
                     <li><a href="<?php echo $lang['header_menu_link_14']; ?>?<?php echo $lang['whmcs_lang_parameter']; ?>"><span class="fal fa-globe"></span>&nbsp;&nbsp;<?php echo $lang['header_menu_content_24']; ?></a></li>
@@ -159,8 +159,8 @@ $first_part = $components[1];
                 </ul>
             </li>
             <li class="dropdown mega-drop">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_43']; ?> <i class="fa fa-angle-double-down"></i></a>
-                <ul class="dropdown-menu hosting-dropdown mega-menu">
+                <a href="#" id="dropdown_toggle_show_4" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_43']; ?> <i class="fa fa-angle-double-down"></i></a>
+                <ul id="dropdown_menu_show_4" class="dropdown-menu hosting-dropdown mega-menu">
                     <li class="service_list">
                         <div class="fleft service service1">
                             <div class="media">
@@ -205,8 +205,8 @@ $first_part = $components[1];
             </li>
             </ul>
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_35']; ?> <i class="fa fa-angle-double-down"></i></a>
-                <ul class="dropdown-menu">
+                <a href="#" id="dropdown_toggle_show_5" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="false" aria-expanded="false"><?php echo $lang['header_menu_content_35']; ?> <i class="fa fa-angle-double-down"></i></a>
+                <ul id="dropdown_menu_show_5" class="dropdown-menu">
                     <li><a href="<?php echo $lang['header_menu_link_17']; ?>"><span class="fal fa-building"></span>&nbsp;&nbsp;<?php echo $lang['header_menu_content_36']; ?></a></li>
                     <li><a href="<?php echo $lang['header_menu_link_53']; ?>"><span class="fal fa-users"></span>&nbsp;&nbsp;<?php echo $lang['header_menu_content_37']; ?></a></li>
                     <li><a href="<?php echo $lang['header_menu_link_52']; ?>"><span class="fal fa-server"></span>&nbsp;&nbsp;<?php echo $lang['header_menu_content_38']; ?></a></li>
